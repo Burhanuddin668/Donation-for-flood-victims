@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.parent{
+    background-image: url(image/donation2.jpg);
+    height: 700px;
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 200px;
+}
+.child{
+    text-align: center;
+}
+.first-headline{
+    color: white;
+    font-size: 40px;
+    padding top: 25%;
+}
+.first-para{
+    color: white;
+}
+a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5%;
+    color: white;
+}
+.step1{
+    text-align: center;
+    margin: 2% 20%;
+}
+#explain{
+    color: gray;
+}
+.step2{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.general{
+    background-color: beige;
+    padding: 50px 20px;
+    width: 10%;
+    text-align: center;margin: 2%;
+    color: gray;
+}
+.defferent{
+    background-color: bisque;
+    padding: 50px 20px;
+    width: 10%;
+    text-align: center;
+    margin: 2%;
+    border: 2px solid tomato;
+    color: tomato;
+}
+.other-amount{
+    border-bottom: 1px solid gray;
+    padding: 5px 30px;
+    text-align: center;
+    color: gray;
+    margin: 5% 25%;    
+}
+.part1{
+    margin-bottom: 200px;
+}
+.step2-1{
+    text-align: center;
+    margin: 2% 20%;
+}
+#explain2{
+    color: gray;
+}
