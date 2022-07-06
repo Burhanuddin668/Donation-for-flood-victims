@@ -71,3 +71,68 @@ a{
 #explain2{
     color: gray;
 }
+.step2-2{
+    display: flex;
+    margin: 3% 15%;
+    
+}
+.box-plan{
+    width: 33%;
+    padding: 3%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 3%;
+    border-radius: 10%;
+}
+#food{
+    background-color: rgb(131, 188, 169);
+}
+#shelter{
+    background-color: antiquewhite;
+}
+#education{
+    background-color: bisque;
+}
+.part3{
+    display: flex;
+    margin-bottom: 150px;
+}
+.write{
+    width: 50%;
+    padding: 5%;
+}
+.image{
+    width: 100%;
+}
+.mother{
+    background-color: bisque;
+    width: 50%;
+    height: 100px;
+    background-position: center;
+    margin: 0% 25%;
+}
+.baby{
+    margin-top: 25%;
+
+}
+button{
+    background-color: rgba(255, 0, 0, 0.823);
+    color: white;
+    border: 0ch;
+    padding: 5px 10px;
+}
+input{
+    background-color: rgba(128, 128, 128, 0.767);
+    border: 0ch;
+    padding: 5px 10px;
+
+}
+footer{
+    background-color: rgb(3, 3, 13);
+    text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+    color: rgba(255, 0, 0, 0.752);
+}
+#footer-down{
+    color: white;
+}
