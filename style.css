@@ -3,12 +3,12 @@ body{
 }
 .parent{
     background-image: url(image/donation2.jpg);
-    height: 700px;
+    height: 500px;
     width: 100%;
     margin: 0%;
     margin-bottom: 200px;
 }
-.child{
+#child{
     text-align: center;
 }
 .first-headline{
