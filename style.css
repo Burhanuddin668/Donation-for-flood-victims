@@ -1,23 +1,17 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.parent{
+.child{
+    width: 40%;
     background-image: url(image/donation2.jpg);
-    height: 500px;
-    width: 100%;
-    margin: 0%;
-    margin-bottom: 200px;
-}
-#child{
+    padding: 15% 30%;
+    color: white;
     text-align: center;
+    margin: 0%;
 }
-.first-headline{
-    color: white;
-    font-size: 40px;
-    padding top: 25%;
-}
-.first-para{
-    color: white;
+p{
+    font-size: 10px;
+    color: gray;
 }
 a{
     text-decoration: none;
@@ -26,62 +20,62 @@ a{
     border-radius: 5%;
     color: white;
 }
+.part1{
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
 .step1{
     text-align: center;
     margin: 2% 20%;
 }
-#explain{
-    color: gray;
-}
 .step2{
     display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 21%;
+    margin-right: 21%;
 }
 .general{
     background-color: beige;
-    padding: 50px 20px;
     width: 10%;
-    text-align: center;margin: 2%;
+    margin: 2%;
     color: gray;
+    padding: 20px ;
 }
 .defferent{
     background-color: bisque;
-    padding: 50px 20px;
+    padding: 20px;
     width: 10%;
-    text-align: center;
     margin: 2%;
     border: 2px solid tomato;
     color: tomato;
 }
-.other-amount{
+.step3{
     border-bottom: 1px solid gray;
-    padding: 5px 30px;
+    padding: 3px 30px;
     text-align: center;
     color: gray;
-    margin: 5% 25%;    
+    margin: 3% 21%;
+
 }
-.part1{
-    margin-bottom: 200px;
+.step4{
+    text-align: center;
+}
+.part2{
+    margin-bottom: 15%;
 }
 .step2-1{
     text-align: center;
     margin: 2% 20%;
 }
-#explain2{
-    color: gray;
-}
 .step2-2{
     display: flex;
-    margin: 3% 15%;
+    margin: 3% 10%;
     
 }
 .box-plan{
-    width: 33%;
-    padding: 3%;
-    box-shadow: 10px 10px 40px gray;
-    margin: 3%;
-    border-radius: 10%;
+    width: 500px;
+    height: 200px;
+    padding: 5px;
+    margin: 1%;
 }
 #food{
     background-color: rgb(131, 188, 169);
@@ -94,29 +88,28 @@ a{
 }
 .part3{
     display: flex;
+    margin-bottom: 50px;
+}
+.part4{
     margin-bottom: 150px;
 }
 .write{
-    width: 50%;
+    width: 100%;
     padding: 5%;
 }
 .image{
     width: 100%;
-}
-.mother{
-    background-color: bisque;
-    width: 50%;
-    height: 100px;
-    background-position: center;
-    margin: 0% 25%;
+    margin: 0%;
 }
 .baby{
-    margin-top: 25%;
-
+    margin: 30% 15% 30% 30%;
+    border: 60px solid bisque;
+    display: inline;
 }
 button{
     background-color: rgba(255, 0, 0, 0.823);
     color: white;
+    margin: 0%;
     border: 0ch;
     padding: 5px 10px;
 }
@@ -129,8 +122,7 @@ input{
 footer{
     background-color: rgb(3, 3, 13);
     text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-style: italic;
+    font-family: 'Lobster', cursive;
     color: rgba(255, 0, 0, 0.752);
 }
 #footer-down{
